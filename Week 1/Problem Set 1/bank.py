@@ -1,10 +1,9 @@
 def bank():
-    greeting = input('Greeting: ')
-    prefix = greeting[:1]
-    
-    if greeting.lower() == 'hello':
+    greeting = input('Greeting: ').lower().strip()
+
+    if greeting.find('hello') == 0:
         print('$0')
-    elif prefix.lower() == 'h':
+    elif greeting[0] == 'h':
         print('$20')
     else:
         print('$100')
