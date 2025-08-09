@@ -10,7 +10,7 @@ def coke():
         if coin in denominations:
             paid += coin
 
-    print(f'Changed Owed: {paid - due}')
+    print(f'Change Owed: {paid - due}')
     
 
 if __name__ == '__main__':
