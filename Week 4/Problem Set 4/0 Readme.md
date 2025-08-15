@@ -28,7 +28,7 @@ This test was also not passed,even though in my terminal the code behave as desc
 
 ###  Bitcoin Price Index
 I had alot of fun with this particular program
-![game](images/game.png)
+![game](images/bitcoin.png)
 
 
 ## Comments
